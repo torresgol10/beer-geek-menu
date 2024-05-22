@@ -15,7 +15,7 @@
     "test:watch": "npm run scripts -- test:watch",
     "build": "turbo build",
     "test": "turbo test",
-    "prepare": "husky || echo 'noop Huksy not installed'"
+    "prepare": "husky || echo 'noop Huksy not installed' "
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown ."
